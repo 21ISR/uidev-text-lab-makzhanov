@@ -14,34 +14,72 @@ body {
 h1,
 h2,
 h3 {
+    font-family: "Times-New-Roman";
 }
 h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform:uppercase;
+    text-align: center;
 }
 h2 {
     margin-top: 20px;
+    text-decoration:underline;
+
+    
 }
 h3 {
+    font-style: italic;
+
 }
 p {
+    font-size:large;
+    text-align: justify;
+    line-height: 1.8;
+    text-indent: 20px;
 }
 a {
+    color: #1a73e8;
+
 }
 a:hover {
 }
 blockquote {
+    font-style: italic;
+    line-height: 2;
+    word-spacing: 4px;
+    font-size: 20px ;
+    font-weight:300;
     background: #eee;
     padding: 10px 20px;
     border-left: 5px solid #0077cc;
     margin: 20px 0;
+
 }
 ul {
     padding-left: 20px;
+
 }
 pre {
     background: #333;
     padding: 10px;
     border-radius: 5px;
     overflow-x: auto;
+    color:#f4f4f4;
 }
 .highlight {
+  background-color: yellow;
+  color: #000;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.latter{
+    letter-spacing:3px;
+}
+.line{
+    text-decoration:line-through;
+}
+.spisok{
+    line-height: 1.6;
 }
